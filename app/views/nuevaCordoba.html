@@ -1,3 +1,19 @@
-<div ng-repeat="negocio in nuevaCordoba.negocios">
-	<li>{{negocio.name}} - {{negocio.price}} - {{negocio.category}}</li>
-</div>
+<table class="table table-hover table-striped">
+
+      <tr ng-repeat="negocio in nuevaCordoba.negocios">
+        <td>
+            <img class="img-rounded pull-left" ng-src="{{negocio.image}}">
+            </td>
+        <td>
+        	<b>{{negocio.name}}</b>
+          	<p>{{negocio.description}}</p>
+        </td>
+        <td>
+        {{negocio.address}}
+       
+			<div><span class="stars-container stars-{{negocio.valoration}}">★★★★★</span></div>
+		</td>
+      </tr>
+    </table>
+
+
