@@ -59,6 +59,46 @@ body {
   margin-top: 28px;
 }
 
+/* Credit to bootsnipp.com for the css for the color graph */
+
+
+.one-column-text h2{
+    font-size:42px;
+    font-weight:300;
+    color:#057d9f;
+    line-height:48px;
+    text-align: center;
+  }
+
+.one-column-text h3{
+    font-size:24px;
+    font-weight:300;
+    color:#057d9f;
+    text-align: center;
+    line-height:40px;}
+
+/*-------------------------------------*/
+
+.contact-info{
+    margin-top:100px;}
+
+.contact-info h3{
+    font-weight:300;
+    margin:30px 0;}
+
+.contact-info p{
+    font-weight:300;}
+
+.contact-info span{
+    font-size:18px;
+    margin:20px 0 20px 0;
+    font-weight:300;}
+
+.contact-info hr{
+    border:solid 1px #eee;
+    margin:50px 0;}
+
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
